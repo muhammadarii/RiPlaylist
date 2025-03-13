@@ -1,14 +1,8 @@
+import { ListCardProps } from "@/types/interface";
 import Image from "next/image";
 import React from "react";
 import { BiHeart } from "react-icons/bi";
 import { FiMoreVertical } from "react-icons/fi";
-
-interface ListCardProps {
-  title?: string;
-  artist?: string;
-  duration?: string;
-  imageSrc?: string;
-}
 
 const ListCard: React.FC<ListCardProps> = ({
   title,
