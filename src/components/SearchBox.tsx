@@ -1,11 +1,8 @@
+import { SearchBoxProps } from "@/types/types";
 import React from "react";
 import { BiSearch } from "react-icons/bi";
 
-type Props = {
-  className?: string;
-};
-
-const SearchBox: React.FC<Props> = ({ className }) => {
+const SearchBox: React.FC<SearchBoxProps> = ({ className }) => {
   return (
     <div
       className={`${className} flex items-center gap-4 rounded-full px-4 py-2 focus-within:border-blue-500`}
