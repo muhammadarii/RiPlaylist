@@ -1,6 +1,10 @@
 export interface ListCardProps {
-  title?: string;
-  artist?: string;
-  duration?: string;
-  imageSrc?: string;
+  className?: string;
+  data?: {
+    id: number;
+    title: string;
+    artist: string;
+    duration: string;
+    imageSrc?: string;
+  }[];
 }
