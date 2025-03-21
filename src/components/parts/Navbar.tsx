@@ -9,9 +9,9 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="w-full fixed flex justify-between items-center p-4">
-      <Link href="/" className="font-bold text-2xl">
-        Dudeshape
+    <nav className="w-full fixed flex justify-between items-center p-4 mx-auto container">
+      <Link href="/">
+        <h1 className="font-bold text-2xl">R1estate</h1>
       </Link>
       <div className="flex gap-10 font-medium items-center">
         {navLinks.map(({ href, label }) => (

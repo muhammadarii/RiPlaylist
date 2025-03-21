@@ -14,7 +14,9 @@ export default function LayoutClient({
   return (
     <div className="flex min-h-screen">
       {!isHiddenRoute && <Navbar />}
-      <main className={isHiddenRoute ? "" : "flex-1"}>{children}</main>
+      <main className={isHiddenRoute ? "" : "flex-1 mt-[70px]"}>
+        {children}
+      </main>
     </div>
   );
 }
