@@ -3,13 +3,13 @@ import Link from "next/link";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/", label: "Properties" },
-  { href: "/", label: "About Us" },
-  { href: "/", label: "Login" },
+  { href: "/about-us", label: "About Us" },
+  { href: "/signin", label: "Login" },
 ];
 
 const Navbar = () => {
   return (
-    <nav className="w-full fixed flex justify-between items-center p-4 mx-auto container">
+    <nav className="w-full fixed flex justify-between items-center p-4 mx-auto container z-50">
       <Link href="/">
         <h1 className="font-bold text-2xl">R1estate</h1>
       </Link>
