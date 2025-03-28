@@ -1,7 +1,8 @@
 import Image from "next/image";
-import HeroImage from "../../public/images/Hero.png";
+import HeroImage from "@/images/Hero.png";
 import FilterBox from "@/components/parts/FilterBox";
 import InformationSection from "@/components/sections/InformationSection";
+import PopularSection from "@/components/sections/PopularSection";
 
 const page = () => {
   return (
@@ -28,6 +29,7 @@ const page = () => {
         </div>
       </div>
       <InformationSection />
+      <PopularSection />
     </div>
   );
 };

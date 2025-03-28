@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../../public/images/Image1.png";
+import HeroImage from "@/images/Image1.png";
 
 const InformationSection = () => {
   return (
