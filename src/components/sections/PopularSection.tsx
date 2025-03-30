@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-[180px]">
+    <div className="flex flex-col items-center justify-center mt-[100px]">
       <div className="flex flex-row items-center justify-between gap-[677px]">
         <h1 className="w-[401px] text-[38px] font-semibold">
           Popular Property Right Now
