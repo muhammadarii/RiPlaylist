@@ -5,9 +5,7 @@ const InformationSection = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-[500px]">
       <div className="flex flex-row items-center justify-between gap-[90px]">
-        <div>
-          <Image src={HeroImage} alt="HeroImage" />
-        </div>
+        <Image src={HeroImage} alt="HeroImage" />
         <div className="flex flex-col items-start justify-center">
           <h1 className="text-[48px] font-semibold">Get To Know Us More</h1>
           <p className="text-[18px] font-[#BDBDBD] w-[618px] mt-4">
