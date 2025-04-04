@@ -1,6 +1,6 @@
 const FilterBox = () => {
   return (
-    <div className="absolute bg-white w-[963px] h-[155px] rounded-[25px] mt-[600px] flex items-center justify-center">
+    <div className="absolute px-4 lg:px-0 bg-white w-screen lg:w-[963px] h-[155px] rounded-[25px] mt-[300px] lg:mt-[600px] flex items-center justify-center">
       <div className="grid grid-cols-4 items-center justify-between gap-10">
         <div className="flex flex-col items-start justify-center text-black">
           <label className="text-[20px]">Locations</label>
