@@ -33,7 +33,7 @@ const Navbar = () => {
       <Link href="/">
         <h1 className="font-bold text-2xl">R1estate</h1>
       </Link>
-      <div className="flex gap-10 font-medium items-center">
+      <div className="gap-10 font-medium items-center hidden lg:flex">
         {navLinks.map(({ href, label }) => (
           <Link
             key={label}
