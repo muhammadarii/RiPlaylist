@@ -1,7 +1,7 @@
 const FilterBox = () => {
   return (
-    <div className="absolute bg-white w-[90vw] lg:w-[963px] h-auto lg:h-[155px] rounded-[25px] mt-[200px] lg:mt-[600px] left-1/2 transform -translate-x-1/2 shadow-lg p-4 lg:p-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 items-center">
+    <div className="absolute bg-white w-[90vw] lg:w-[963px] h-auto  rounded-[25px] mt-[300px] lg:mt-[600px] left-1/2 transform -translate-x-1/2 shadow-lg p-4 lg:p-6">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 items-center">
         {/* Location Filter */}
         <div className="flex flex-col w-full">
           <label className="text-[16px] lg:text-[20px] font-medium text-black">
