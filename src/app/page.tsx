@@ -30,8 +30,8 @@ const page = () => {
         </div>
       </div>
       <InformationSection />
-      <PopularSection />
-      <SuccessSection />
+      {/* <PopularSection />
+      <SuccessSection /> */}
     </div>
   );
 };
