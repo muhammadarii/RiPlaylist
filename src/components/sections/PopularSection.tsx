@@ -1,11 +1,11 @@
 const PopularSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-[100px]">
-      <div className="flex flex-row items-center justify-between gap-[677px]">
-        <h1 className="w-[401px] text-[38px] font-semibold">
+    <div className="flex flex-col lg:items-center lg:justify-center mt-[50px] lg:mt-[100px]">
+      <div className="flex lg:flex-row lg:items-center lg:justify-between lg:gap-[677px]">
+        <h1 className="lg:w-[401px] text-[24px] lg:text-[38px] font-semibold px-4 lg:px-0">
           Popular Property Right Now
         </h1>
-        <div className="flex flex-row items-center justify-center gap-4">
+        <div className="flex-row items-center justify-center gap-4 hidden lg:flex">
           <button className="w-[40px] h-[40px] flex items-center justify-center bg-[#F5F5F5] rounded-[10px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
