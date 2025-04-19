@@ -4,6 +4,7 @@ import FilterBox from "@/components/parts/FilterBox";
 import InformationSection from "@/components/sections/InformationSection";
 import PopularSection from "@/components/sections/PopularSection";
 import SuccessSection from "@/components/sections/SuccessSection";
+import Footer from "@/components/sections/Footer";
 
 const page = () => {
   return (
@@ -32,6 +33,7 @@ const page = () => {
       <InformationSection />
       <PopularSection />
       <SuccessSection />
+      <Footer />
     </div>
   );
 };
