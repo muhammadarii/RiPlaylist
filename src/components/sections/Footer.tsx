@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-[100px]">
-      <div className="grid grid-cols-4 mt-[100px] gap-[200px] items-start mb-5">
-        <div className="flex flex-col items-start justify-center mx-4">
+    <div className="flex flex-col lg:items-center lg:justify-center lg:mt-[100px] mx-[30px]">
+      <div className="grid grid-cols-2 items-start gap-8 lg:grid lg:grid-cols-4 mt-[100px] lg:gap-[200px] lg:items-start mb-5">
+        <div className="flex flex-col items-start justify-center lg:mx-4">
           <h1 className="font-bold text-2xl">R1estate</h1>
           <div className="flex flex-col gap-2 text-gray-400 mt-4 text-[14px]">
             <p>+62 1234 5678</p>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-gray-400 mt-10 text-[14px] mb-2">
+      <p className="flex justify-center text-gray-400 mt-10 text-[14px] mb-2">
         © 2025 R1estate. All rights reserved
       </p>
     </div>
